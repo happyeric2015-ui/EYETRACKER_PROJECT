@@ -1,0 +1,10 @@
+# Eye-Tracking Experiment Dependencies
+# Note: MediaPipe requires Python 3.8-3.12 (not 3.13+)
+# If you have Python 3.13, please use Python 3.12 instead
+
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
