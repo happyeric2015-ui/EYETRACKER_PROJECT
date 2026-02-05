@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 #### Enhanced Version (Recommended)
 ```bash
-python eye_experiment_enhanced.py
+python3.12 eye_experiment_enhanced.py
 ```
 
 Features:
@@ -71,7 +71,7 @@ Features:
 
 #### Basic Version
 ```bash
-python eye_experiment.py
+python3.12 eye_experiment.py
 ```
 
 Minimal interface for experienced users or research purposes.
@@ -81,7 +81,7 @@ Minimal interface for experienced users or research purposes.
 ### Analyzing Data
 
 ```bash
-python eye_analysis_dashboard.py
+python3.12 eye_analysis_dashboard.py
 ```
 
 **Input**: `eye_tracking_results_DATA.csv`
@@ -95,7 +95,6 @@ EyeTracker_Project/
 ├── eye_experiment_enhanced.py     # Enhanced version with better UX
 ├── eye_analysis_dashboard.py      # Data analysis and visualization
 ├── requirements.txt               # Python dependencies
-├── CLAUDE.md                      # Developer documentation
 ├── README.md                      # This file
 └── eye_tracking_results_DATA.csv # Experiment output (generated)
 ```
@@ -228,7 +227,6 @@ if critical_window and min(critical_window) < 0.7:  # Change 0.7
 
 ## Contributing
 
-For bugs or feature requests, please open an issue. For development guidelines, see `CLAUDE.md`.
 
 ## License
 
@@ -244,10 +242,10 @@ If you use this code in your research, please cite:
 
 ## Contact
 
-[Add contact information here]
+[Eric Chen happyeric2015@gmail.com]
 
 ## Acknowledgments
 
 - MediaPipe by Google for face mesh tracking
 - OpenCV for computer vision tools
-- Research participants who helped test and validate the system
+- Participants who helped test and validate the system
