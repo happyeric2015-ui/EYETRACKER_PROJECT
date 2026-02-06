@@ -456,11 +456,11 @@ class SaccadeExperimentEnhanced:
         if accuracy == "Correct":
             feedback_color = (0, 255, 0)
             feedback_text = "CORRECT!"
-            emoji = "✓"
+            emoji = "✓" # emoji not show now, will update later
         else:
             feedback_color = (0, 100, 255)
             feedback_text = "INCORRECT"
-            emoji = "✗"
+            emoji = "✗" # emoji not show now, will update later
 
         self.draw_text_centered(screen, emoji + " " + feedback_text + " " + emoji,
                                250, 2.0, feedback_color, 4)

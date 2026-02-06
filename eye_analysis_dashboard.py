@@ -21,7 +21,7 @@ class EyeTrackingAnalyzer:
         self.analysis_data = None
 
     def load_data(self):
-        """Load raw data from CSV"""
+        """Load raw data from eye tracking results CSV"""
         try:
             self.raw_data = pd.read_csv(self.csv_filepath)
             print(f"Data loaded successfully from {self.csv_filepath}")
