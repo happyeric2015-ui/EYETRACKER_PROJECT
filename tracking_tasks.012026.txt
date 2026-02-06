@@ -1,0 +1,42 @@
+Eric Chen 
+SPR  Jan. 01 2026
+
+Visual Tracking Tasks
+
+Platform: 16-inch MacBook Pro, built-in 1080p webcam, 30 FPS
+View Distance: ~50-60 cm (arm’s length)
+Lighting: Indoor 300-500 lux
+Calibration: 9-point grid (center + corners + midpoints)
+Systems: For both the system designed by the student and WebGazer.js
+
+Task 1: Fixation Stability
+Goal: Measure the ability to maintain gaze on a stationary target.
+Procedure:
+A small dot appears sequentially at 6-10 screen positions ((center + corners + midpoints)
+Each dot is displayed for 5 seconds. 
+Between targets, there will be a brief blank screen (1 second)
+Tasks will be completed using both the student-developed system and WebGazer.js for side-by-side comparison.
+Metric:
+Fixation duration (how long gaze remains within a small region around the target)
+Fixation stability (e.g., standard deviation of gaze location during the 5s)
+
+Task 2: Saccade Speed
+Goal: Measure speed and accuracy of rapid eye movements.
+Procedure: 
+Participant watches as a dot jumps randomly between screen positions from one location to another every 1.5 seconds
+20-25 trials per participant, each for the student system and WebGazer.js
+Metric:
+Saccade latency (time from jump to gaze movement)
+Saccade speed (angular/linear speed between old and new location)
+Saccade accuracy (distance between gaze endpoint and target)
+
+Task 3: Smooth Pursuit Task
+Goal: Measure the ability to track moving targets smoothly
+Procedure:
+Dot moves horizontally (left -> right -> left) or along a circular path at a moderate speed for about 30 seconds
+Participants follow the dot with their eyes, no head movement.
+Tasks will be completed using both the student-developed system and WebGazer.js for side-by-side comparison.
+Metrics: 
+Pursuit error (distance between gaze position and target position over time)
+Gain (velocity/target velocity)
+Number of catch-up saccades (frequency of gaze losing the target and needing correction)

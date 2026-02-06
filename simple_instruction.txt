@@ -1,0 +1,6 @@
+python3.12 -m venv venv (first time)
+source venv/bin/activate
+pip install -r requirements.txt (for the first time run or updated)
+python3.12 eye_experiment_enhanced.py
+
+python3 eye_analysis_dashboard.py

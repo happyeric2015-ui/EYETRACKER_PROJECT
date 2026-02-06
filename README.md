@@ -12,7 +12,7 @@ This project implements a complete eye-tracking experiment pipeline:
 
 ## Features
 
-- Real-time iris tracking using webcam (no special hardware required)
+- Real-time eye tracking using webcam (no special hardware required)
 - Two experiment versions: basic and enhanced with user-friendly interface
 - Automatic quality control and trial flagging
 - Practice trials with immediate feedback
